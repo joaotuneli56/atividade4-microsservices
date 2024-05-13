@@ -12,34 +12,48 @@
 - [ ] 1º Clonar o repositorio Github.
 
 ```
-git clone https://github.com/joaotuneli56/atividade4-microsservice.git
+git clone https://github.com/joaotuneli56/atividade4-microsservices.git
 ```
 
-- [ ] 2° Entrar no repositorio 
+- [ ] 2° Entrar no repositorio do webchat
 
 ```git
-cd atividade4-microsservice
+cd webchat
 ```
 
-- [ ] 3º instalar o angular e suas dependencias no projeto
+- [ ] 3º Rode o comando a baixo para instalar o pacote do signalR
+
+```
+dotnet add package Microsoft.AspNetCore.SignalR
+```
+
+- [ ] 4º Rode o projeto webchat no backend
+
+- [ ] 5º Entre na pasta `app-angular´
+
+```
+cd app-angular
+```
+
+- [ ] 6º Instale as dependencias do angular
 
 ```
 npm install -g @angular/cli
 ```
 
-- [ ] 4º remover os erros de imports e fazer o rebuild
-
-```
-Set-ExecutionPolicy RemoteSigned
-```
-
-- [ ] 5º Sincronizar o npm e suas instancias
+- [ ] 6º Faça o rebuild da aplicação angular
 
 ```
 npm install
 ```
 
-- [ ] 6º Rode o projeto
+**CASO O PROJETO ESTEJA COM ERRO**, rode o comando abaixo:
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+- [ ] 7º Rode o projeto para teste
 
 ```
 ng serve
