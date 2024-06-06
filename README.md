@@ -29,7 +29,7 @@ dotnet add package Microsoft.AspNetCore.SignalR
 
 - [ ] 4º Rode o projeto webchat no backend
 
-- [ ] 5º Entre na pasta `app-angular´
+- [ ] 5º Entre na pasta `app-angular`
 
 ```
 cd app-angular
